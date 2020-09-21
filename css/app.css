@@ -7,3 +7,50 @@
     background-color: darkred;
     color: white;
 }
+.search-input{
+left: 9px;
+top: 104px;
+width: 357px;
+height: 48px;
+line-height: 20px;
+border-radius: 2px 2px 2px 2px;
+background-color: rgba(250, 250, 250, 1);
+box-shadow: 0px 2px 2px 0px rgba(255, 255, 255, 1);
+border: 1px solid rgba(130, 4, 8, 1);
+margin-left: 5%;
+
+}
+.container{
+    padding: 3%;
+    display: flex;
+}
+
+.container img{
+    left: 12px;
+        top: 345px;
+        width: 108px;
+        height: 163px;
+        margin-right: 2%;
+}
+.container h1{
+left: 129px;
+top: 159px;
+width: 227px;
+height: 19px;
+color: rgba(16, 16, 16, 1);
+font-size: 17px;
+text-align: left;
+font-family: SFUIText-regular;
+font-weight: bolder;
+margin-top: -0.5%;
+
+}
+.container2{
+    display:block
+}
+.container p{
+    margin-top: 10%;
+}
+.text{
+    margin-top: -3%;
+}
