@@ -11,17 +11,17 @@ font-weight: bolder;
     color: white;
 }
 .search-input{
-left: 9px;
-top: 104px;
-width: 357px;
-height: 48px;
-line-height: 20px;
-border-radius: 2px 2px 2px 2px;
+
 background-color: rgba(250, 250, 250, 1);
 box-shadow: 0px 2px 2px 0px rgba(255, 255, 255, 1);
 border: 1px solid rgba(130, 4, 8, 1);
-margin-left: 5%;
+/* margin-left: 5%; */
 
+}
+.search-text{
+    
+    margin-top: 3%;
+    text-align: center;
 }
 .container{
     padding: 3%;
