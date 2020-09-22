@@ -48,14 +48,42 @@ font-weight: bolder;
 margin-top: -0.5%;
 
 }
+.container h2{
+    left: 129px;
+    top: 159px;
+    width: 227px;
+    height: 19px;
+    color: rgba(16, 16, 16, 1);
+    font-size: 17px;
+    text-align: left;
+    font-family: SFUIText-regular;
+    font-weight: bolder;
+   margin-top: 3%;
+    
+    }
+    .container h3{
+        left: 129px;
+        top: 159px;
+        width: 227px;
+        height: 19px;
+        color: rgba(16, 16, 16, 1);
+        font-size: 17px;
+        text-align: left;
+        font-family: SFUIText-regular;
+        font-weight: bolder;
+       margin-top: -5%;
+        
+        }
 .container2{
     display:block
 }
 .container p{
     margin-top: 10%;
+    text-indent: 5%;
 }
 .text{
     margin-top: -3%;
+    text-indent: 5%;
 }
 .top10{
  
@@ -69,4 +97,20 @@ font-family: SFUIText-regular;
 font-weight: bold;
 margin-left: 2%;
 margin-top: 5%;
+}
+.icon-center{
+    margin-top: -3%;
+}
+
+.container-detail{
+    padding: 3%;
+    
+
+}
+
+.img-detail{
+    margin: auto auto;
+    display: block;
+    text-align: center;
+    /* margin-top: 5%; */
 }
