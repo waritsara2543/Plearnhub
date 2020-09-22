@@ -1,28 +1,32 @@
 <ons-page id="Home">
 
-    
-    <ons-carousel fullscreen swipeable auto-scroll overscrollable id="carousel">
+    <ons-navigator swipeable id="myNavigator" page="page1.html"></ons-navigator>
+    <template id="page1.html">
+        <ons-page id="Home">
 
-        
-        <ons-carousel-item style="background-image: url('images/image1.jpg'); background-repeat: no-repeat ;
-        height: 562px; 
+            <ons-carousel swipeable auto-scroll overscrollable id="carousel">
+
+                <ons-carousel-item style="background-image: url('images/image1.jpg'); 
+                background-repeat: no-repeat ;
+                height: 562px; 
+                background-position: center;
+                background-size: cover;" id="starwar">
+
+                </ons-carousel-item>
+
+                <ons-carousel-item style="background-image: url('images/image2.jpg');background-repeat: no-repeat; height: 562px; 
         background-position: center;
-        background-size: cover;"> 
-        </ons-carousel-item>
-       
+        background-size: cover;" id="pirate">
+                </ons-carousel-item>
 
-        <ons-carousel-item style="background-image: url('images/image2.jpg');background-repeat: no-repeat; height: 562px; 
-        background-position: center;
-        background-size: cover;"> 
-        </ons-carousel-item>
-        <ons-carousel-item style="background-image: url('images/image3.jpg');background-repeat: no-repeat; height: 562px; 
-        background-position: center;
-        background-size: cover;"> 
-        </ons-carousel-item>
+                <ons-carousel-item style="background-image: url('images/image3.jpg');background-repeat: no-repeat; height: 562px; 
+background-position: center;
+background-size: cover;" id="avatar">
+                </ons-carousel-item>
 
-    </ons-carousel>
-<div class="top10">Top 10 of August</div>
-
-    
-
+            </ons-carousel>
+            
+            <div class="top10">Top 10 of August</div>
+        </ons-page>
+    </template>
 </ons-page>

@@ -1,4 +1,4 @@
-.toolbar__title{
+.toolbar__title,.toolbar__left,.toolbar__right{
 background-color: rgba(130, 4, 8, 1);
 color: rgba(255, 255, 255, 1);
 font-size: 28px;
@@ -58,7 +58,7 @@ margin-top: -0.5%;
     margin-top: -3%;
 }
 .top10{
-    
+ 
 
 width: 500px;
 height: 24px;
@@ -68,5 +68,5 @@ text-align: left;
 font-family: SFUIText-regular;
 font-weight: bold;
 margin-left: 2%;
-margin-top: -40%;
+margin-top: 5%;
 }
